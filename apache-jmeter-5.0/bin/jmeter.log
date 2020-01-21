@@ -1,0 +1,785 @@
+2019-01-10 12:10:28,388 INFO o.a.j.u.JMeterUtils: Setting Locale to en_PL
+2019-01-10 12:10:28,450 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2019-01-10 12:10:28,451 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2019-01-10 12:10:28,464 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2019-01-10 12:10:28,464 INFO o.a.j.JMeter: Version 5.0 r1840935
+2019-01-10 12:10:28,465 INFO o.a.j.JMeter: java.version=9.0.1
+2019-01-10 12:10:28,465 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-01-10 12:10:28,465 INFO o.a.j.JMeter: os.name=Mac OS X
+2019-01-10 12:10:28,465 INFO o.a.j.JMeter: os.arch=x86_64
+2019-01-10 12:10:28,465 INFO o.a.j.JMeter: os.version=10.14.1
+2019-01-10 12:10:28,466 INFO o.a.j.JMeter: file.encoding=US-ASCII
+2019-01-10 12:10:28,466 INFO o.a.j.JMeter: Max memory     =2147483648
+2019-01-10 12:10:28,466 INFO o.a.j.JMeter: Available Processors =4
+2019-01-10 12:10:28,479 INFO o.a.j.JMeter: Default Locale=English (Poland)
+2019-01-10 12:10:28,480 INFO o.a.j.JMeter: JMeter  Locale=English (Poland)
+2019-01-10 12:10:28,480 INFO o.a.j.JMeter: JMeterHome=/Users/mochodek/Development/apache-jmeter-5.0
+2019-01-10 12:10:28,480 INFO o.a.j.JMeter: user.dir  =/Users/mochodek/Development/apache-jmeter-5.0/bin
+2019-01-10 12:10:28,481 INFO o.a.j.JMeter: PWD       =/Users/mochodek/Development/apache-jmeter-5.0/bin
+2019-01-10 12:10:28,484 INFO o.a.j.JMeter: IP: 192.168.1.101 Name: MO-MacBook.local FullName: 192.168.1.101
+2019-01-10 12:10:32,211 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2019-01-10 12:10:32,223 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Darcula]
+2019-01-10 12:10:32,224 INFO o.a.j.JMeter: Setting LAF to: javax.swing.plaf.metal.MetalLookAndFeel
+2019-01-10 12:10:32,260 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2019-01-10 12:10:33,476 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-01-10 12:10:33,476 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-01-10 12:10:34,904 INFO o.j.r.JARSourceHTTP: Found cached repo
+2019-01-10 12:10:35,296 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, jpgc-graphs-composite=2.0, jpgc-functions=2.1, jpgc-casutg=2.6, jpgc-dummy=0.2, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-graphs-vs=2.0, jpgc-perfmon=2.1, jpgc-plugins-manager=1.3, jpgc-tst=2.5, jmeter-core=5.0, jmeter-ftp=5.0, jmeter-http=5.0, jmeter-jdbc=5.0, jmeter-jms=5.0, jmeter-junit=5.0, jmeter-java=5.0, jmeter-ldap=5.0, jmeter-mail=5.0, jmeter-mongodb=5.0, jmeter-native=5.0, jmeter-tcp=5.0, jmeter-components=5.0, jpgc-standard=2.0]
+2019-01-10 12:10:35,560 INFO o.a.j.JMeter: Loading file: /Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc/zadanie1.jmx
+2019-01-10 12:10:35,562 INFO o.a.j.s.FileServer: Default base='/Users/mochodek/Development/apache-jmeter-5.0/bin'
+2019-01-10 12:10:35,564 INFO o.a.j.s.FileServer: Set new base='/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc'
+2019-01-10 12:10:35,977 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-01-10 12:10:36,000 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-01-10 12:10:36,007 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-01-10 12:10:36,013 INFO o.a.j.s.SaveService: Loading file: /Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc/zadanie1.jmx
+2019-01-10 12:10:36,568 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-01-10 12:10:36,568 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-01-10 12:10:36,568 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-01-10 12:10:36,569 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-01-10 12:10:36,569 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-01-10 12:10:36,569 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-01-10 12:10:36,713 INFO o.a.j.s.FileServer: Set new base='/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc'
+2019-01-10 12:10:37,053 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-01-10 12:10:37,054 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-01-10 12:10:37,054 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-01-10 12:10:37,054 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-01-10 12:10:40,174 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2019-01-10 12:10:40,176 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/mochodek/Development/apache-jmeter-5.0/bin/proxyserver.jks
+2019-01-10 12:11:31,812 INFO o.a.j.g.a.Load: Loading file: /Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc/zadanie1.jmx
+2019-01-10 12:11:31,814 INFO o.a.j.s.FileServer: Set new base='/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc'
+2019-01-10 12:11:31,814 INFO o.a.j.s.SaveService: Loading file: /Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc/zadanie1.jmx
+2019-01-10 12:11:32,077 INFO o.a.j.s.FileServer: Set new base='/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc'
+2019-01-10 12:31:37,700 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-01-10 12:31:37,708 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-01-10 12:31:37,709 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-01-10 12:31:37,724 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-01-10 12:31:38,423 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2019-01-10 12:31:38,424 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2019-01-10 12:31:38,424 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-01-10 12:31:38,426 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 perThread=500.0 delayedStart=false
+2019-01-10 12:31:38,444 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2019-01-10 12:31:38,465 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-01-10 12:31:38,465 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-01-10 12:31:38,945 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2019-01-10 12:31:39,462 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2019-01-10 12:31:39,959 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2019-01-10 12:31:40,462 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2019-01-10 12:31:40,959 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2019-01-10 12:31:41,467 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2019-01-10 12:31:41,966 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2019-01-10 12:31:42,467 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2019-01-10 12:31:42,968 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2019-01-10 12:31:43,015 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = MO-MacBook.local
+2019-01-10 12:31:43,026 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 1
+2019-01-10 12:32:03,922 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-01-10 12:32:03,923 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-01-10 12:34:49,948 INFO o.a.j.g.a.Start: Stopping test
+2019-01-10 12:34:50,001 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2019-01-10 12:34:50,002 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: customer_cards
+2019-01-10 12:34:50,004 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2019-01-10 12:34:50,004 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2019-01-10 12:34:50,005 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2019-01-10 12:34:50,005 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2019-01-10 12:34:50,005 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2019-01-10 12:34:50,005 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: customer_cards
+2019-01-10 12:34:50,005 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2019-01-10 12:34:50,006 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2019-01-10 12:34:50,007 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2019-01-10 12:34:50,007 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2019-01-10 12:34:50,007 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2019-01-10 12:34:50,009 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2019-01-10 12:34:50,011 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2019-01-10 12:34:50,011 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: customer_cards
+2019-01-10 12:34:50,011 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2019-01-10 12:34:50,011 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2019-01-10 12:34:50,012 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2019-01-10 12:34:50,012 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2019-01-10 12:34:50,013 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2019-01-10 12:34:50,014 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2019-01-10 12:34:50,014 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: customer_cards
+2019-01-10 12:34:50,014 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2019-01-10 12:34:50,015 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2019-01-10 12:34:50,015 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2019-01-10 12:34:50,016 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2019-01-10 12:34:50,016 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2019-01-10 12:34:50,016 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: customer_cards
+2019-01-10 12:34:50,016 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2019-01-10 12:34:50,018 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2019-01-10 12:34:50,018 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2019-01-10 12:34:50,018 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2019-01-10 12:34:50,020 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2019-01-10 12:34:50,021 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2019-01-10 12:34:50,032 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-01-10 12:34:50,034 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-01-10 12:37:49,838 INFO o.a.j.g.a.Load: Loading file: /Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc/zadanie2.jmx
+2019-01-10 12:37:49,838 INFO o.a.j.s.FileServer: Set new base='/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc'
+2019-01-10 12:37:49,839 INFO o.a.j.s.SaveService: Loading file: /Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc/zadanie2.jmx
+2019-01-10 12:37:50,180 INFO o.a.j.s.FileServer: Set new base='/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc'
+2019-01-10 12:38:09,060 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-01-10 12:38:09,062 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-01-10 12:38:09,074 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-01-10 12:38:09,336 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2019-01-10 12:38:09,336 INFO o.a.j.e.StandardJMeterEngine: Starting 80 threads for group Thread Group.
+2019-01-10 12:38:09,337 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-01-10 12:38:09,338 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=80 ramp-up=2 perThread=25.0 delayedStart=false
+2019-01-10 12:38:09,341 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2019-01-10 12:38:09,376 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2019-01-10 12:38:09,398 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2019-01-10 12:38:09,421 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2019-01-10 12:38:09,429 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-01-10 12:38:09,429 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-01-10 12:38:09,446 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2019-01-10 12:38:09,475 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2019-01-10 12:38:09,498 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2019-01-10 12:38:09,526 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2019-01-10 12:38:09,554 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2019-01-10 12:38:09,579 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2019-01-10 12:38:09,605 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2019-01-10 12:38:09,629 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2019-01-10 12:38:09,666 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2019-01-10 12:38:09,692 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2019-01-10 12:38:09,721 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2019-01-10 12:38:09,755 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2019-01-10 12:38:09,788 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2019-01-10 12:38:09,814 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2019-01-10 12:38:09,838 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2019-01-10 12:38:09,866 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2019-01-10 12:38:09,888 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2019-01-10 12:38:09,914 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2019-01-10 12:38:09,940 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2019-01-10 12:38:09,966 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2019-01-10 12:38:09,991 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2019-01-10 12:38:10,021 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2019-01-10 12:38:10,044 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2019-01-10 12:38:10,071 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2019-01-10 12:38:10,098 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2019-01-10 12:38:10,122 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2019-01-10 12:38:10,147 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2019-01-10 12:38:10,173 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2019-01-10 12:38:10,198 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2019-01-10 12:38:10,225 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2019-01-10 12:38:10,255 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2019-01-10 12:38:10,277 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2019-01-10 12:38:10,306 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2019-01-10 12:38:10,332 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2019-01-10 12:38:10,354 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2019-01-10 12:38:10,380 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2019-01-10 12:38:10,408 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2019-01-10 12:38:10,431 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2019-01-10 12:38:10,456 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2019-01-10 12:38:10,482 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2019-01-10 12:38:10,508 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2019-01-10 12:38:10,532 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2019-01-10 12:38:10,558 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2019-01-10 12:38:10,587 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2019-01-10 12:38:10,610 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2019-01-10 12:38:10,639 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2019-01-10 12:38:10,661 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-51
+2019-01-10 12:38:10,688 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-52
+2019-01-10 12:38:10,711 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-53
+2019-01-10 12:38:10,737 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-54
+2019-01-10 12:38:10,762 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-55
+2019-01-10 12:38:10,788 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-56
+2019-01-10 12:38:10,813 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-57
+2019-01-10 12:38:10,842 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-58
+2019-01-10 12:38:10,866 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-59
+2019-01-10 12:38:10,891 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-60
+2019-01-10 12:38:10,921 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-61
+2019-01-10 12:38:10,942 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-62
+2019-01-10 12:38:10,966 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-63
+2019-01-10 12:38:10,994 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-64
+2019-01-10 12:38:11,020 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-65
+2019-01-10 12:38:11,045 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-66
+2019-01-10 12:38:11,075 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-67
+2019-01-10 12:38:11,099 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-68
+2019-01-10 12:38:11,123 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-69
+2019-01-10 12:38:11,148 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-70
+2019-01-10 12:38:11,174 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-71
+2019-01-10 12:38:11,199 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-72
+2019-01-10 12:38:11,225 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-73
+2019-01-10 12:38:11,254 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-74
+2019-01-10 12:38:11,276 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-75
+2019-01-10 12:38:11,306 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-76
+2019-01-10 12:38:11,329 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-77
+2019-01-10 12:38:11,354 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-78
+2019-01-10 12:38:11,384 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-79
+2019-01-10 12:38:11,405 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-80
+2019-01-10 12:43:05,347 INFO o.a.j.g.a.Start: Stopping test
+2019-01-10 12:43:05,393 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-33
+2019-01-10 12:43:05,393 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-33 sampler: print_card
+2019-01-10 12:43:05,395 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-68
+2019-01-10 12:43:05,396 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-68 sampler: print_card
+2019-01-10 12:43:05,398 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-11
+2019-01-10 12:43:05,398 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-11 sampler: print_card
+2019-01-10 12:43:05,401 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2019-01-10 12:43:05,401 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-72
+2019-01-10 12:43:05,402 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-72 sampler: print_card
+2019-01-10 12:43:05,403 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2019-01-10 12:43:05,403 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-68
+2019-01-10 12:43:05,405 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-67
+2019-01-10 12:43:05,406 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-67 sampler: print_card
+2019-01-10 12:43:05,408 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2019-01-10 12:43:05,408 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: print_card
+2019-01-10 12:43:05,408 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-72
+2019-01-10 12:43:05,411 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-12
+2019-01-10 12:43:05,412 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-67
+2019-01-10 12:43:05,412 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-12 sampler: print_card
+2019-01-10 12:43:05,413 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2019-01-10 12:43:05,414 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-13
+2019-01-10 12:43:05,414 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-13 sampler: print_card
+2019-01-10 12:43:05,417 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2019-01-10 12:43:05,418 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-55
+2019-01-10 12:43:05,418 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-55 sampler: print_card
+2019-01-10 12:43:05,424 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2019-01-10 12:43:05,424 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-69
+2019-01-10 12:43:05,428 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-55
+2019-01-10 12:43:05,427 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-69 sampler: print_card
+2019-01-10 12:43:05,433 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-39
+2019-01-10 12:43:05,433 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-39 sampler: print_card
+2019-01-10 12:43:05,438 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2019-01-10 12:43:05,438 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: print_card
+2019-01-10 12:43:05,435 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-69
+2019-01-10 12:43:05,441 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2019-01-10 12:43:05,442 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-32
+2019-01-10 12:43:05,443 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-32 sampler: print_card
+2019-01-10 12:43:05,446 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-61
+2019-01-10 12:43:05,446 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2019-01-10 12:43:05,446 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-61 sampler: print_card
+2019-01-10 12:43:05,448 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2019-01-10 12:43:05,450 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-27
+2019-01-10 12:43:05,452 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-27 sampler: print_card
+2019-01-10 12:43:05,459 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-61
+2019-01-10 12:43:05,471 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-38
+2019-01-10 12:43:05,471 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-38 sampler: print_card
+2019-01-10 12:43:05,472 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-23
+2019-01-10 12:43:05,473 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-23 sampler: print_card
+2019-01-10 12:43:05,478 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2019-01-10 12:43:05,478 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2019-01-10 12:43:05,479 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-28
+2019-01-10 12:43:05,479 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-28 sampler: print_card
+2019-01-10 12:43:05,480 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2019-01-10 12:43:05,481 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-49
+2019-01-10 12:43:05,481 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-49 sampler: print_card
+2019-01-10 12:43:05,484 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-20
+2019-01-10 12:43:05,484 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-20 sampler: print_card
+2019-01-10 12:43:05,485 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-24
+2019-01-10 12:43:05,485 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-24 sampler: print_card
+2019-01-10 12:43:05,486 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-34
+2019-01-10 12:43:05,486 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-34 sampler: print_card
+2019-01-10 12:43:05,487 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-18
+2019-01-10 12:43:05,487 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-18 sampler: print_card
+2019-01-10 12:43:05,492 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-29
+2019-01-10 12:43:05,492 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-29 sampler: print_card
+2019-01-10 12:43:05,493 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-42
+2019-01-10 12:43:05,493 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-42 sampler: print_card
+2019-01-10 12:43:05,494 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2019-01-10 12:43:05,494 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: print_card
+2019-01-10 12:43:05,494 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-70
+2019-01-10 12:43:05,495 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-70 sampler: print_card
+2019-01-10 12:43:05,496 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2019-01-10 12:43:05,496 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: print_card
+2019-01-10 12:43:05,497 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-56
+2019-01-10 12:43:05,497 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-56 sampler: print_card
+2019-01-10 12:43:05,497 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-16
+2019-01-10 12:43:05,497 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-16 sampler: print_card
+2019-01-10 12:43:05,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2019-01-10 12:43:05,498 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: print_card
+2019-01-10 12:43:05,499 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-43
+2019-01-10 12:43:05,499 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-43 sampler: print_card
+2019-01-10 12:43:05,499 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-21
+2019-01-10 12:43:05,500 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-21 sampler: print_card
+2019-01-10 12:43:05,500 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-45
+2019-01-10 12:43:05,500 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-45 sampler: print_card
+2019-01-10 12:43:05,501 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-26
+2019-01-10 12:43:05,501 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-26 sampler: print_card
+2019-01-10 12:43:05,501 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-65
+2019-01-10 12:43:05,501 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-65 sampler: print_card
+2019-01-10 12:43:05,505 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-74
+2019-01-10 12:43:05,505 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-74 sampler: print_card
+2019-01-10 12:43:05,505 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-51
+2019-01-10 12:43:05,506 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-51 sampler: print_card
+2019-01-10 12:43:05,506 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-59
+2019-01-10 12:43:05,506 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-59 sampler: print_card
+2019-01-10 12:43:05,507 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-37
+2019-01-10 12:43:05,507 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-37 sampler: print_card
+2019-01-10 12:43:05,508 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-40
+2019-01-10 12:43:05,508 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-40 sampler: print_card
+2019-01-10 12:43:05,508 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-75
+2019-01-10 12:43:05,508 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-75 sampler: print_card
+2019-01-10 12:43:05,508 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2019-01-10 12:43:05,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-59
+2019-01-10 12:43:05,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-51
+2019-01-10 12:43:05,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2019-01-10 12:43:05,509 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-25
+2019-01-10 12:43:05,509 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-25 sampler: print_card
+2019-01-10 12:43:05,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2019-01-10 12:43:05,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-74
+2019-01-10 12:43:05,510 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-65
+2019-01-10 12:43:05,510 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-63
+2019-01-10 12:43:05,510 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-63 sampler: print_card
+2019-01-10 12:43:05,510 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2019-01-10 12:43:05,510 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-75
+2019-01-10 12:43:05,511 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2019-01-10 12:43:05,512 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2019-01-10 12:43:05,512 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2019-01-10 12:43:05,512 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2019-01-10 12:43:05,513 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-64
+2019-01-10 12:43:05,513 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-64 sampler: print_card
+2019-01-10 12:43:05,514 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2019-01-10 12:43:05,514 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-56
+2019-01-10 12:43:05,514 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-63
+2019-01-10 12:43:05,515 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-58
+2019-01-10 12:43:05,515 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-58 sampler: print_card
+2019-01-10 12:43:05,515 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2019-01-10 12:43:05,515 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-70
+2019-01-10 12:43:05,516 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-76
+2019-01-10 12:43:05,516 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-76 sampler: print_card
+2019-01-10 12:43:05,516 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2019-01-10 12:43:05,516 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-64
+2019-01-10 12:43:05,516 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-35
+2019-01-10 12:43:05,517 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-35 sampler: print_card
+2019-01-10 12:43:05,517 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2019-01-10 12:43:05,517 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-58
+2019-01-10 12:43:05,517 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2019-01-10 12:43:05,518 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-17
+2019-01-10 12:43:05,518 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-17 sampler: print_card
+2019-01-10 12:43:05,518 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-76
+2019-01-10 12:43:05,518 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2019-01-10 12:43:05,520 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2019-01-10 12:43:05,520 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2019-01-10 12:43:05,521 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-47
+2019-01-10 12:43:05,521 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-47 sampler: print_card
+2019-01-10 12:43:05,521 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2019-01-10 12:43:05,523 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2019-01-10 12:43:05,524 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2019-01-10 12:43:05,525 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2019-01-10 12:43:05,525 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: print_card
+2019-01-10 12:43:05,526 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2019-01-10 12:43:05,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2019-01-10 12:43:05,528 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-14
+2019-01-10 12:43:05,529 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-14 sampler: print_card
+2019-01-10 12:43:05,529 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2019-01-10 12:43:05,530 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-52
+2019-01-10 12:43:05,530 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-52 sampler: print_card
+2019-01-10 12:43:05,530 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2019-01-10 12:43:05,530 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2019-01-10 12:43:05,531 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-54
+2019-01-10 12:43:05,531 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-54 sampler: print_card
+2019-01-10 12:43:05,532 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-52
+2019-01-10 12:43:05,532 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-66
+2019-01-10 12:43:05,532 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-66 sampler: print_card
+2019-01-10 12:43:05,533 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2019-01-10 12:43:05,533 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: print_card
+2019-01-10 12:43:05,533 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-54
+2019-01-10 12:43:05,533 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-79
+2019-01-10 12:43:05,533 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-79 sampler: print_card
+2019-01-10 12:43:05,533 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-66
+2019-01-10 12:43:05,534 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-78
+2019-01-10 12:43:05,534 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2019-01-10 12:43:05,534 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-78 sampler: print_card
+2019-01-10 12:43:05,535 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-15
+2019-01-10 12:43:05,535 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-79
+2019-01-10 12:43:05,535 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-15 sampler: print_card
+2019-01-10 12:43:05,536 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-78
+2019-01-10 12:43:05,536 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-77
+2019-01-10 12:43:05,536 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-77 sampler: print_card
+2019-01-10 12:43:05,537 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2019-01-10 12:43:05,538 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-60
+2019-01-10 12:43:05,538 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-60 sampler: print_card
+2019-01-10 12:43:05,540 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-77
+2019-01-10 12:43:05,540 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2019-01-10 12:43:05,541 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: print_card
+2019-01-10 12:43:05,542 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-60
+2019-01-10 12:43:05,543 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-30
+2019-01-10 12:43:05,544 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-30 sampler: print_card
+2019-01-10 12:43:05,544 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2019-01-10 12:43:05,545 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-71
+2019-01-10 12:43:05,545 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-71 sampler: print_card
+2019-01-10 12:43:05,546 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-19
+2019-01-10 12:43:05,546 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-19 sampler: print_card
+2019-01-10 12:43:05,546 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2019-01-10 12:43:05,546 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2019-01-10 12:43:05,547 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: print_card
+2019-01-10 12:43:05,547 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-71
+2019-01-10 12:43:05,547 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2019-01-10 12:43:05,547 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-31
+2019-01-10 12:43:05,548 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-31 sampler: print_card
+2019-01-10 12:43:05,548 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-80
+2019-01-10 12:43:05,548 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-80 sampler: print_card
+2019-01-10 12:43:05,548 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-73
+2019-01-10 12:43:05,548 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-73 sampler: print_card
+2019-01-10 12:43:05,549 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2019-01-10 12:43:05,549 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-46
+2019-01-10 12:43:05,549 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-46 sampler: print_card
+2019-01-10 12:43:05,549 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-80
+2019-01-10 12:43:05,549 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2019-01-10 12:43:05,550 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-73
+2019-01-10 12:43:05,550 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-48
+2019-01-10 12:43:05,550 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-48 sampler: print_card
+2019-01-10 12:43:05,551 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-50
+2019-01-10 12:43:05,551 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-50 sampler: print_card
+2019-01-10 12:43:05,551 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2019-01-10 12:43:05,551 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-41
+2019-01-10 12:43:05,552 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-41 sampler: print_card
+2019-01-10 12:43:05,553 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-22
+2019-01-10 12:43:05,553 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2019-01-10 12:43:05,553 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-22 sampler: print_card
+2019-01-10 12:43:05,553 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2019-01-10 12:43:05,553 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-36
+2019-01-10 12:43:05,553 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2019-01-10 12:43:05,553 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-36 sampler: print_card
+2019-01-10 12:43:05,554 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-44
+2019-01-10 12:43:05,554 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-44 sampler: print_card
+2019-01-10 12:43:05,554 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-62
+2019-01-10 12:43:05,554 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2019-01-10 12:43:05,554 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-62 sampler: print_card
+2019-01-10 12:43:05,554 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-53
+2019-01-10 12:43:05,555 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-53 sampler: print_card
+2019-01-10 12:43:05,555 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2019-01-10 12:43:05,555 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-62
+2019-01-10 12:43:05,555 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2019-01-10 12:43:05,556 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-57
+2019-01-10 12:43:05,556 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-57 sampler: print_card
+2019-01-10 12:43:05,556 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2019-01-10 12:43:05,556 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: print_card
+2019-01-10 12:43:05,558 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-57
+2019-01-10 12:43:05,558 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-53
+2019-01-10 12:43:05,559 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2019-01-10 12:43:05,560 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-01-10 12:43:05,560 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-01-10 12:48:06,464 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-01-10 12:48:06,466 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-01-10 12:48:06,468 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-01-10 12:48:06,761 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2019-01-10 12:48:06,762 INFO o.a.j.e.StandardJMeterEngine: Starting 80 threads for group Thread Group.
+2019-01-10 12:48:06,762 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-01-10 12:48:06,762 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=80 ramp-up=2 perThread=25.0 delayedStart=false
+2019-01-10 12:48:06,765 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2019-01-10 12:48:06,797 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2019-01-10 12:48:06,826 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2019-01-10 12:48:06,851 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2019-01-10 12:48:06,861 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-01-10 12:48:06,861 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-01-10 12:48:06,881 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2019-01-10 12:48:06,909 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2019-01-10 12:48:06,935 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2019-01-10 12:48:06,963 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2019-01-10 12:48:06,986 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2019-01-10 12:48:07,014 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2019-01-10 12:48:07,037 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2019-01-10 12:48:07,061 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2019-01-10 12:48:07,091 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2019-01-10 12:48:07,115 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2019-01-10 12:48:07,137 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2019-01-10 12:48:07,166 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2019-01-10 12:48:07,192 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2019-01-10 12:48:07,218 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2019-01-10 12:48:07,242 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2019-01-10 12:48:07,267 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2019-01-10 12:48:07,297 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2019-01-10 12:48:07,325 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2019-01-10 12:48:07,361 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2019-01-10 12:48:07,382 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2019-01-10 12:48:07,408 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2019-01-10 12:48:07,437 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2019-01-10 12:48:07,463 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2019-01-10 12:48:07,485 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2019-01-10 12:48:07,514 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2019-01-10 12:48:07,544 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2019-01-10 12:48:07,567 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2019-01-10 12:48:07,596 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2019-01-10 12:48:07,619 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2019-01-10 12:48:07,648 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2019-01-10 12:48:07,671 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2019-01-10 12:48:07,703 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2019-01-10 12:48:07,725 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2019-01-10 12:48:07,759 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2019-01-10 12:48:07,782 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2019-01-10 12:48:07,813 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2019-01-10 12:48:07,836 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2019-01-10 12:48:07,863 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2019-01-10 12:48:07,892 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2019-01-10 12:48:07,917 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2019-01-10 12:48:07,942 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2019-01-10 12:48:07,975 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2019-01-10 12:48:07,997 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2019-01-10 12:48:08,026 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2019-01-10 12:48:08,047 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2019-01-10 12:48:08,078 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2019-01-10 12:48:08,102 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-51
+2019-01-10 12:48:08,127 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-52
+2019-01-10 12:48:08,149 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-53
+2019-01-10 12:48:08,179 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-54
+2019-01-10 12:48:08,199 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-55
+2019-01-10 12:48:08,228 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-56
+2019-01-10 12:48:08,252 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-57
+2019-01-10 12:48:08,275 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-58
+2019-01-10 12:48:08,303 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-59
+2019-01-10 12:48:08,330 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-60
+2019-01-10 12:48:08,356 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-61
+2019-01-10 12:48:08,380 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-62
+2019-01-10 12:48:08,407 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-63
+2019-01-10 12:48:08,429 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-64
+2019-01-10 12:48:08,459 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-65
+2019-01-10 12:48:08,485 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-66
+2019-01-10 12:48:08,509 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-67
+2019-01-10 12:48:08,532 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-68
+2019-01-10 12:48:08,559 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-69
+2019-01-10 12:48:08,582 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-70
+2019-01-10 12:48:08,612 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-71
+2019-01-10 12:48:08,635 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-72
+2019-01-10 12:48:08,659 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-73
+2019-01-10 12:48:08,685 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-74
+2019-01-10 12:48:08,713 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-75
+2019-01-10 12:48:08,740 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-76
+2019-01-10 12:48:08,763 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-77
+2019-01-10 12:48:08,789 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-78
+2019-01-10 12:48:08,813 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-79
+2019-01-10 12:48:08,837 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-80
+2019-01-10 12:49:26,317 INFO o.a.j.g.a.Start: Stopping test
+2019-01-10 12:49:26,337 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-34
+2019-01-10 12:49:26,338 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-34 sampler: print_card
+2019-01-10 12:49:26,340 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-29
+2019-01-10 12:49:26,340 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-29 sampler: print_card
+2019-01-10 12:49:26,342 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-61
+2019-01-10 12:49:26,342 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2019-01-10 12:49:26,343 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-61 sampler: print_card
+2019-01-10 12:49:26,344 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2019-01-10 12:49:26,346 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-69
+2019-01-10 12:49:26,346 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-69 sampler: print_card
+2019-01-10 12:49:26,349 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-44
+2019-01-10 12:49:26,350 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-44 sampler: print_card
+2019-01-10 12:49:26,350 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-61
+2019-01-10 12:49:26,352 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-69
+2019-01-10 12:49:26,353 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2019-01-10 12:49:26,353 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: print_card
+2019-01-10 12:49:26,354 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2019-01-10 12:49:26,360 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-50
+2019-01-10 12:49:26,360 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-50 sampler: print_card
+2019-01-10 12:49:26,365 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2019-01-10 12:49:26,369 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-24
+2019-01-10 12:49:26,369 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-24 sampler: print_card
+2019-01-10 12:49:26,370 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2019-01-10 12:49:26,372 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-72
+2019-01-10 12:49:26,372 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-72 sampler: print_card
+2019-01-10 12:49:26,374 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2019-01-10 12:49:26,376 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-23
+2019-01-10 12:49:26,377 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-23 sampler: print_card
+2019-01-10 12:49:26,377 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-72
+2019-01-10 12:49:26,382 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-53
+2019-01-10 12:49:26,382 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-53 sampler: print_card
+2019-01-10 12:49:26,384 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2019-01-10 12:49:26,386 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-55
+2019-01-10 12:49:26,386 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-55 sampler: print_card
+2019-01-10 12:49:26,387 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-53
+2019-01-10 12:49:26,389 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-67
+2019-01-10 12:49:26,389 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-67 sampler: print_card
+2019-01-10 12:49:26,392 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-55
+2019-01-10 12:49:26,392 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-38
+2019-01-10 12:49:26,392 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-38 sampler: print_card
+2019-01-10 12:49:26,394 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-67
+2019-01-10 12:49:26,398 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-43
+2019-01-10 12:49:26,398 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-43 sampler: print_card
+2019-01-10 12:49:26,399 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2019-01-10 12:49:26,404 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-52
+2019-01-10 12:49:26,404 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-52 sampler: print_card
+2019-01-10 12:49:26,406 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-56
+2019-01-10 12:49:26,406 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-56 sampler: print_card
+2019-01-10 12:49:26,407 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2019-01-10 12:49:26,410 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-52
+2019-01-10 12:49:26,410 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-37
+2019-01-10 12:49:26,410 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-37 sampler: print_card
+2019-01-10 12:49:26,411 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-56
+2019-01-10 12:49:26,413 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-17
+2019-01-10 12:49:26,414 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-17 sampler: print_card
+2019-01-10 12:49:26,418 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2019-01-10 12:49:26,419 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-54
+2019-01-10 12:49:26,419 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-54 sampler: print_card
+2019-01-10 12:49:26,421 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2019-01-10 12:49:26,438 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-35
+2019-01-10 12:49:26,438 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-35 sampler: print_card
+2019-01-10 12:49:26,439 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-28
+2019-01-10 12:49:26,439 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-28 sampler: print_card
+2019-01-10 12:49:26,440 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-36
+2019-01-10 12:49:26,441 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-36 sampler: print_card
+2019-01-10 12:49:26,441 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-54
+2019-01-10 12:49:26,441 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2019-01-10 12:49:26,441 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-71
+2019-01-10 12:49:26,441 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-71 sampler: print_card
+2019-01-10 12:49:26,442 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2019-01-10 12:49:26,442 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2019-01-10 12:49:26,442 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-18
+2019-01-10 12:49:26,442 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-18 sampler: print_card
+2019-01-10 12:49:26,443 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-71
+2019-01-10 12:49:26,444 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-62
+2019-01-10 12:49:26,444 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-62 sampler: print_card
+2019-01-10 12:49:26,445 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2019-01-10 12:49:26,447 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-62
+2019-01-10 12:49:26,446 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-12
+2019-01-10 12:49:26,449 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-12 sampler: print_card
+2019-01-10 12:49:26,449 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-33
+2019-01-10 12:49:26,449 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-33 sampler: print_card
+2019-01-10 12:49:26,450 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-13
+2019-01-10 12:49:26,450 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-13 sampler: print_card
+2019-01-10 12:49:26,450 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2019-01-10 12:49:26,450 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-59
+2019-01-10 12:49:26,450 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2019-01-10 12:49:26,450 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-59 sampler: print_card
+2019-01-10 12:49:26,451 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-15
+2019-01-10 12:49:26,451 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-15 sampler: print_card
+2019-01-10 12:49:26,451 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2019-01-10 12:49:26,452 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-26
+2019-01-10 12:49:26,452 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-59
+2019-01-10 12:49:26,452 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-26 sampler: print_card
+2019-01-10 12:49:26,452 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-73
+2019-01-10 12:49:26,453 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-73 sampler: print_card
+2019-01-10 12:49:26,453 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2019-01-10 12:49:26,453 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2019-01-10 12:49:26,455 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-77
+2019-01-10 12:49:26,455 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-77 sampler: print_card
+2019-01-10 12:49:26,456 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-19
+2019-01-10 12:49:26,456 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-19 sampler: print_card
+2019-01-10 12:49:26,456 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-73
+2019-01-10 12:49:26,456 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-77
+2019-01-10 12:49:26,458 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-75
+2019-01-10 12:49:26,459 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-75 sampler: print_card
+2019-01-10 12:49:26,459 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2019-01-10 12:49:26,464 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-45
+2019-01-10 12:49:26,464 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-75
+2019-01-10 12:49:26,465 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-45 sampler: print_card
+2019-01-10 12:49:26,466 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2019-01-10 12:49:26,466 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: print_card
+2019-01-10 12:49:26,467 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-48
+2019-01-10 12:49:26,467 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2019-01-10 12:49:26,467 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-48 sampler: print_card
+2019-01-10 12:49:26,468 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2019-01-10 12:49:26,469 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-70
+2019-01-10 12:49:26,470 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-70 sampler: print_card
+2019-01-10 12:49:26,470 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-41
+2019-01-10 12:49:26,471 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-41 sampler: print_card
+2019-01-10 12:49:26,471 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2019-01-10 12:49:26,471 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-70
+2019-01-10 12:49:26,471 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-58
+2019-01-10 12:49:26,471 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-58 sampler: print_card
+2019-01-10 12:49:26,471 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2019-01-10 12:49:26,472 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-20
+2019-01-10 12:49:26,472 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-20 sampler: print_card
+2019-01-10 12:49:26,472 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-42
+2019-01-10 12:49:26,472 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-58
+2019-01-10 12:49:26,472 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-42 sampler: print_card
+2019-01-10 12:49:26,472 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-79
+2019-01-10 12:49:26,472 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-79 sampler: print_card
+2019-01-10 12:49:26,473 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2019-01-10 12:49:26,473 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2019-01-10 12:49:26,473 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-51
+2019-01-10 12:49:26,473 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-51 sampler: print_card
+2019-01-10 12:49:26,474 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-79
+2019-01-10 12:49:26,474 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-11
+2019-01-10 12:49:26,474 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-11 sampler: print_card
+2019-01-10 12:49:26,474 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-51
+2019-01-10 12:49:26,475 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2019-01-10 12:49:26,475 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: print_card
+2019-01-10 12:49:26,475 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2019-01-10 12:49:26,476 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-16
+2019-01-10 12:49:26,476 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-16 sampler: print_card
+2019-01-10 12:49:26,477 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2019-01-10 12:49:26,478 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2019-01-10 12:49:26,479 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: print_card
+2019-01-10 12:49:26,479 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-40
+2019-01-10 12:49:26,479 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2019-01-10 12:49:26,479 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-40 sampler: print_card
+2019-01-10 12:49:26,480 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-76
+2019-01-10 12:49:26,480 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-76 sampler: print_card
+2019-01-10 12:49:26,480 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2019-01-10 12:49:26,480 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2019-01-10 12:49:26,481 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-63
+2019-01-10 12:49:26,481 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-63 sampler: print_card
+2019-01-10 12:49:26,481 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-76
+2019-01-10 12:49:26,482 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-47
+2019-01-10 12:49:26,483 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-47 sampler: print_card
+2019-01-10 12:49:26,483 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-63
+2019-01-10 12:49:26,484 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-80
+2019-01-10 12:49:26,484 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2019-01-10 12:49:26,485 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-80 sampler: print_card
+2019-01-10 12:49:26,485 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2019-01-10 12:49:26,485 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: print_card
+2019-01-10 12:49:26,486 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-80
+2019-01-10 12:49:26,486 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-27
+2019-01-10 12:49:26,486 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-27 sampler: print_card
+2019-01-10 12:49:26,486 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2019-01-10 12:49:26,486 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2019-01-10 12:49:26,486 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: print_card
+2019-01-10 12:49:26,487 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2019-01-10 12:49:26,487 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-30
+2019-01-10 12:49:26,487 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-30 sampler: print_card
+2019-01-10 12:49:26,488 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2019-01-10 12:49:26,488 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-74
+2019-01-10 12:49:26,488 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-74 sampler: print_card
+2019-01-10 12:49:26,488 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2019-01-10 12:49:26,489 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-68
+2019-01-10 12:49:26,489 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-68 sampler: print_card
+2019-01-10 12:49:26,489 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-74
+2019-01-10 12:49:26,489 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-14
+2019-01-10 12:49:26,489 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-14 sampler: print_card
+2019-01-10 12:49:26,490 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-78
+2019-01-10 12:49:26,490 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-78 sampler: print_card
+2019-01-10 12:49:26,490 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-68
+2019-01-10 12:49:26,490 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-32
+2019-01-10 12:49:26,490 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-32 sampler: print_card
+2019-01-10 12:49:26,490 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2019-01-10 12:49:26,491 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-78
+2019-01-10 12:49:26,491 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-25
+2019-01-10 12:49:26,491 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-25 sampler: print_card
+2019-01-10 12:49:26,491 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2019-01-10 12:49:26,492 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-39
+2019-01-10 12:49:26,492 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-39 sampler: print_card
+2019-01-10 12:49:26,492 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2019-01-10 12:49:26,492 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-60
+2019-01-10 12:49:26,492 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-60 sampler: print_card
+2019-01-10 12:49:26,493 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2019-01-10 12:49:26,493 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-65
+2019-01-10 12:49:26,493 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-65 sampler: print_card
+2019-01-10 12:49:26,494 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-66
+2019-01-10 12:49:26,494 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-60
+2019-01-10 12:49:26,494 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-66 sampler: print_card
+2019-01-10 12:49:26,494 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-65
+2019-01-10 12:49:26,494 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2019-01-10 12:49:26,495 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: print_card
+2019-01-10 12:49:26,495 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-66
+2019-01-10 12:49:26,496 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-46
+2019-01-10 12:49:26,496 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-46 sampler: print_card
+2019-01-10 12:49:26,496 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-57
+2019-01-10 12:49:26,496 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-57 sampler: print_card
+2019-01-10 12:49:26,496 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2019-01-10 12:49:26,496 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2019-01-10 12:49:26,496 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: print_card
+2019-01-10 12:49:26,497 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-22
+2019-01-10 12:49:26,497 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2019-01-10 12:49:26,497 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-22 sampler: print_card
+2019-01-10 12:49:26,497 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-57
+2019-01-10 12:49:26,497 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2019-01-10 12:49:26,497 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2019-01-10 12:49:26,497 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: print_card
+2019-01-10 12:49:26,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-64
+2019-01-10 12:49:26,498 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-64 sampler: print_card
+2019-01-10 12:49:26,498 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2019-01-10 12:49:26,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-21
+2019-01-10 12:49:26,498 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-21 sampler: print_card
+2019-01-10 12:49:26,498 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2019-01-10 12:49:26,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-31
+2019-01-10 12:49:26,498 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-64
+2019-01-10 12:49:26,499 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-31 sampler: print_card
+2019-01-10 12:49:26,499 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-49
+2019-01-10 12:49:26,499 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2019-01-10 12:49:26,499 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-49 sampler: print_card
+2019-01-10 12:49:26,499 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2019-01-10 12:49:26,500 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2019-01-10 12:49:26,500 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: print_card
+2019-01-10 12:49:26,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2019-01-10 12:49:26,501 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2019-01-10 12:49:26,501 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-01-10 12:49:26,502 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-01-10 12:49:33,442 INFO o.a.j.g.a.Load: Loading file: /Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc/zadanie3.jmx
+2019-01-10 12:49:33,443 INFO o.a.j.s.FileServer: Set new base='/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc'
+2019-01-10 12:49:33,443 INFO o.a.j.s.SaveService: Loading file: /Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc/zadanie3.jmx
+2019-01-10 12:49:33,739 INFO o.a.j.s.FileServer: Set new base='/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/Testowanie perf-acc'
