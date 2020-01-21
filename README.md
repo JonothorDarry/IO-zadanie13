@@ -5,7 +5,8 @@ W repo w plikach CustomerBonus/1st_task.jmx, CustomerBonus/2nd_task.jmx, Custome
 zadań z 13 laboratoriów, których nie oddałem w trakcie zajęć, bo mnie na nich nie było.
 
 1. W pierwszym zadaniu przed zmianą wartość average w summary wynosiła 5810, throughput 1.5/sec; problemem z kodem było
-wywoływanie funkcji averageSpendings() w pętli, na dodatek aż dwukrotni; zmiana kodu na:
+wywoływanie funkcji averageSpendings() w pętli, na dodatek aż dwukrotnie; zmiana kodu na:
+```
 private List<Customer> s;
 private Double v;
 ....
@@ -19,6 +20,7 @@ for (Customer customer : s){
     }
 }
 return customerIds;
+```
 Sprawiła, że czas wykonania spadł z average (time)=5810 i throughput=1.5/sec do average (time)=49 i throughput=20.9/sec
 
 2. W drugim zadaniu throughput wynosi ok. 2.0/sec dla 10 drukarek. Zmiana w pliku CardPrinterAPI.java:
