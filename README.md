@@ -4,7 +4,7 @@ Rozwiązanie zadania z IO
 W repo w plikach CustomerBonus/1st_task.jmx, CustomerBonus/2nd_task.jmx, CustomerBonus/3rd_task.jmx są kolejne rozwiązania do 
 zadań z 13 laboratoriów, których nie oddałem w trakcie zajęć, bo mnie na nich nie było.
 
-1. W pierwszym zadaniu przed zmianą wartość average w summary wynosiła 5810, throughput 1.5/sec; problemem z kodem było
+1. W pierwszym zadaniu przed zmianą wartość average w summary wynosiła 5410, throughput 1.5/sec; problemem z kodem było
 wywoływanie funkcji averageSpendings() w pętli, na dodatek aż dwukrotnie; zmiana kodu na:
 ```
 private List<Customer> s;
@@ -21,7 +21,7 @@ for (Customer customer : s){
 }
 return customerIds;
 ```
-Sprawiła, że czas wykonania spadł z average (time)=5810 i throughput=1.5/sec do average (time)=49 i throughput=20.9/sec
+Sprawiła, że czas wykonania spadł z average (time)=5480 i throughput=1.7/sec do average (time)=36 i throughput=20.4/sec
 
 2. W drugim zadaniu throughput wynosi ok. 2.0/sec dla 10 drukarek. Zmiana w pliku CardPrinterAPI.java:
 private static final int NUMBER_OF_PRINTERS = 30;
