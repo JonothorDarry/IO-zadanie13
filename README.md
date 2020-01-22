@@ -4,7 +4,7 @@ Rozwiązanie zadania z IO
 W repo w plikach CustomerBonus/1st_task.jmx, CustomerBonus/2nd_task.jmx, CustomerBonus/3rd_task.jmx są kolejne rozwiązania do 
 zadań z 13 laboratoriów, których nie oddałem w trakcie zajęć, bo mnie na nich nie było.
 
-1. W pierwszym zadaniu przed zmianą wartość average w summary wynosiła 5410, throughput 1.5/sec; problemem z kodem było
+1. W pierwszym zadaniu przed zmianą wartość average w summary wynosiła 5480, throughput 1.7/sec; problemem z kodem było
 wywoływanie funkcji averageSpendings() w pętli, na dodatek aż dwukrotnie; zmiana kodu na:
 ```
 private List<Customer> s;
